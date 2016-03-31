@@ -15,6 +15,7 @@
 		6DE64B221CAD6CCD00AF202A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DE64B201CAD6CCD00AF202A /* LaunchScreen.storyboard */; };
 		6DE64B2D1CAD6CCD00AF202A /* FMLCircleProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE64B2C1CAD6CCD00AF202A /* FMLCircleProgressViewTests.m */; };
 		6DE64B381CAD6CCD00AF202A /* FMLCircleProgressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE64B371CAD6CCD00AF202A /* FMLCircleProgressViewUITests.m */; };
+		6DE64B481CAD6CFF00AF202A /* FMLCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE64B471CAD6CFF00AF202A /* FMLCircleProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		6DE64B331CAD6CCD00AF202A /* FMLCircleProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMLCircleProgressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DE64B371CAD6CCD00AF202A /* FMLCircleProgressViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMLCircleProgressViewUITests.m; sourceTree = "<group>"; };
 		6DE64B391CAD6CCD00AF202A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DE64B461CAD6CFF00AF202A /* FMLCircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMLCircleProgressView.h; sourceTree = "<group>"; };
+		6DE64B471CAD6CFF00AF202A /* FMLCircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMLCircleProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		6DE64B111CAD6CCD00AF202A /* FMLCircleProgressView */ = {
 			isa = PBXGroup;
 			children = (
+				6DE64B451CAD6CE100AF202A /* FMLCircleProgressView */,
 				6DE64B151CAD6CCD00AF202A /* AppDelegate.h */,
 				6DE64B161CAD6CCD00AF202A /* AppDelegate.m */,
 				6DE64B181CAD6CCD00AF202A /* ViewController.h */,
@@ -138,6 +142,15 @@
 				6DE64B391CAD6CCD00AF202A /* Info.plist */,
 			);
 			path = FMLCircleProgressViewUITests;
+			sourceTree = "<group>";
+		};
+		6DE64B451CAD6CE100AF202A /* FMLCircleProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				6DE64B461CAD6CFF00AF202A /* FMLCircleProgressView.h */,
+				6DE64B471CAD6CFF00AF202A /* FMLCircleProgressView.m */,
+			);
+			path = FMLCircleProgressView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 				6DE64B1A1CAD6CCD00AF202A /* ViewController.m in Sources */,
 				6DE64B171CAD6CCD00AF202A /* AppDelegate.m in Sources */,
 				6DE64B141CAD6CCD00AF202A /* main.m in Sources */,
+				6DE64B481CAD6CFF00AF202A /* FMLCircleProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
