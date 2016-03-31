@@ -19,12 +19,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-//    _progressView = [[FMLCircleProgressView alloc]init];
-//    [self.view addSubview:_progressView];
-//    _progressView.backgroundStrokeColor = [UIColor blueColor];
-//    _progressView.strokeColor = [UIColor yellowColor];
-//    _progressView.lineWidth = 10;
-//    _progressView.frame = CGRectMake(0, 100, 414, 414);
+    _progressView = [[FMLCircleProgressView alloc]init];
+    [self.view addSubview:_progressView];
+    _progressView.backgroundStrokeColor = [UIColor blueColor];
+    _progressView.strokeColor = [UIColor yellowColor];
+    _progressView.lineWidth = 10;
+    _progressView.frame = CGRectMake(0, 100, 414, 414);
 }
 
 - (void)didReceiveMemoryWarning {
